@@ -1,18 +1,25 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
+import SignUpModal from './components/SignUpModal.vue'
+import PageContent from './components/PageContent.vue'
+import ScrollToTop from './components/ScrollToTop.vue'
+import Footer from './components/Footer.vue' // Assuming you've created a Footer component
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div id="app">
+    <Header />
+    <SignUpModal />
+    <div id="mainContent">
+      <PageContent id="secondPage" title="Second Page Content" />
+      <PageContent id="thirdPage" title="Third Page Content" />
+      <PageContent id="fourthPage" title="Fourth Page Content" />
+    </div>
+    <ScrollToTop />
+    <Footer />
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
+
 
 <style scoped>
 .logo {
