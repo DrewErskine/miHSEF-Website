@@ -73,6 +73,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - example@example.com
+Drew Erskine
 
 Project Link: [https://github.com/your_username_/Project-Name](https://github.com/your_username_/Project-Name)
