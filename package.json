@@ -2,25 +2,18 @@
   "name": "mihsef-website",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dmerskine19.github.io/miHSEF-Website/",
   "type": "module",
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy": "gh-pages -d dist --repo https://dmerskine19.github.io/miHSEF-Website/",
-    "dev": "vite",
+    "predeploy": "npm run build",
     "build": "vite build",
     "preview": "vite preview"
-    //"upload":
   },
   "dependencies": {
     "pinia": "^2.1.7",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.4",
-    "@vue/compiler-sfc": "^3.4.21",
     "autoprefixer": "^10.4.19",
-    "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "postcss-cli": "^11.0.0",
     "tailwindcss": "^3.4.3",
