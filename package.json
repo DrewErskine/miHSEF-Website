@@ -5,11 +5,10 @@
   "homepage": "https://dmerskine19.github.io/miHSEF-Website/",
   "type": "module",
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy": "gh-pages -d dist --repo https://dmerskine19.github.io/miHSEF-Website/",
-    "dev": "vite",
+    "predeploy": "npm run build",
     "build": "vite build",
     "preview": "vite preview"
+    //"upload":
   },
   "dependencies": {
     "pinia": "^2.1.7",

@@ -6,18 +6,12 @@
 
 @layer base {
 	:root {
-        --light-theme-primary: 230, 230, 230;
-		--light-theme-body: 59, 59, 59;
-
-		--dark-theme-primary: 37, 38, 39;
-		--dark-theme-body: 189, 189, 189;
-
-		--coffee-theme-primary: 252, 248, 232;
-		--coffee-theme-body: 120, 110, 131;
-
-		--color-primary: var(--light-theme-primary);
-		--color-body: var(--light-theme-body);
+		--primary-color: #FF6D00; /* orange */
+		--secondary-color: #1a202c; /* black */
+		--text-color: #ffffff; /* white */
+		--hover-color: #cc5800; /* darker orange for hover effects */
 	}
+	
 
 	.light {
 		--color-primary: var(--light-theme-primary);
@@ -33,6 +27,21 @@
 		--color-primary: var(--coffee-theme-primary);
 		--color-body: var(--coffee-theme-body);
 	}
+
+	#header {
+		background-color: var(--secondary-color);
+		color: var(--text-color);
+	}
+	.button:hover,
+	.button:focus,
+	.button:active {
+		background-color: var(--hover-color);
+	}
+
+/* Same for links or other interactive elements */
+
+
+
 
 	h1,
 	h2,
