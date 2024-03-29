@@ -6,7 +6,6 @@
   "type": "module",
   "scripts": {
     "predeploy" : "npm run build",
-    "deploy": "gh-pages -d dist --repo https://dmerskine19.github.io/miHSEF-Website/",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
