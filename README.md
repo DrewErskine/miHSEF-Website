@@ -6,7 +6,6 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 - [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
 
-
 MiHiEF Website@0.0.0
 
 ── @vitejs/plugin-vue@5.0.4
@@ -21,7 +20,35 @@ MiHiEF Website@0.0.0
 
 ── vue@3.4.21
 
+npx tailwindcss build /src/index.css -o dist/output.css
 
-npx tailwindcss -i ./src/style.css -o ./src/output.css --watch
 cd .\MiHSEF-Website\
 npm run dev
+
+MiHSEF/
+├─ .vscode/
+├─ dist/
+│  ├─ assets/
+│  ├─ index.html
+│  └─ vite.svg
+├─ node_modules/
+├─ public/
+├─ src/
+│  ├─ assets/
+│  ├─ components/
+│  │  ├─ footer.vue
+│  │  ├─ header.vue
+│  │  ├─ pagecontent.vue
+│  │  ├─ scrolltotop.vue
+│  │  ├─ Signupmodal.vue
+│  │  └─ TestComponent.vue
+│  ├─ app.vue
+│  ├─ index.css
+│  └─ main.js
+├─ .gitignore
+├─ index.html
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.js
+├─ tailwind.config.js
+└─ vite.config.js

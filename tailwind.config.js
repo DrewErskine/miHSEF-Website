@@ -1,11 +1,20 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
+  darkMode: 'class',
   content: [
-    "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx,html}",
+      './index.html',
+      './src/**/*.{vue,js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {},
+      fontFamily: {
+          display: ['inter'],
+          body: ['lato']
+      },
+      extend: {
+          colors: {
+              primary: 'rgba(var(--color-primary), <alpha-value>)',
+              body: 'rgba(var(--color-body), <alpha-value>)',
+          }
+      }
   },
-  plugins: [],
+  plugins: []
 }
