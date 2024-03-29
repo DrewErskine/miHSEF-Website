@@ -7,6 +7,7 @@
 /.firebase/
 /.firestore.emulator
 /.runtimeconfig.json
+src/firebase/firebase-config.js
 
 # Vite
 /node_modules/.vite/
