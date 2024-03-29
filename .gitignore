@@ -1,0 +1,21 @@
+# Node.js dependencies
+/node_modules
+
+# Firebase
+/firebase.json
+/.firebaserc
+/.firebase/
+/.firestore.emulator
+/.runtimeconfig.json
+
+# Vite
+/node_modules/.vite/
+.vite/
+
+# Tailwind CSS
+/dist
+/tailwind.config.js
+
+# Vue.js
+/dist/
+/.env.local
