@@ -56,7 +56,12 @@ npm install
 ```
 3. Serve the application locally
 ```sh
-npm run serve
+npm run build
+```
+
+3. Serve the application locally
+```sh
+npm run deploy
 ```
 
 ## Usage
