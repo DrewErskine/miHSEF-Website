@@ -1,13 +1,15 @@
 {
   "name": "mihsef-website",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
+  "homepage": "https://dmerskine19.github.io/miHSEF-Website/",
   "type": "module",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy": "gh-pages -d dist --repo https://dmerskine19.github.io/miHSEF-Website/",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d E:/miHSEF/"
+    "preview": "vite preview"
   },
   "dependencies": {
     "pinia": "^2.1.7",
@@ -24,7 +26,7 @@
     "vite": "^5.2.6",
     "vue": "^3.4.21"
   },
-  "description": "This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.",
+  "description": "Drew Erskine",
   "main": "src/main.js",
   "keywords": [],
   "author": "",
